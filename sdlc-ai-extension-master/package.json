@@ -1,0 +1,50 @@
+{
+  "name": "sdlc-ai",
+  "displayName": "SDLC AI",
+  "description": "Collects project inputs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "main": "./dist/extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "sdlcai-sidebar",
+          "title": "SDLC AI",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "sdlcai-sidebar": [
+        {
+          "type": "webview",
+          "id": "sdlcai.configView",
+          "name": "Configuration View"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "extension.showInputForm",
+        "title": "SDLC AI: Show Input Form"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "webpack --mode production",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.75.0",
+    "typescript": "^5.0.0",
+    "ts-loader": "^9.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

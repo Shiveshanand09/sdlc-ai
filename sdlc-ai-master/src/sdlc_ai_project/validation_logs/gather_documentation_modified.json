@@ -1,0 +1,39 @@
+{
+  "docs": [
+    {
+      "title": "Taskwarrior-web Installation Guide",
+      "url": "https://example.com/taskwarrior-web/installation.html",
+      "snippet": "A detailed guide on installing and configuring Taskwarrior-web, including dependencies and setup instructions.  This would include code examples for various configurations."
+    },
+    {
+      "title": "Taskwarrior-web API Reference",
+      "url": "https://example.com/taskwarrior-web/api.html",
+      "snippet": "Comprehensive documentation on the Taskwarrior-web API endpoints, including request parameters, response formats, and authentication methods. Code samples demonstrating API usage in various languages would be present here (e.g., JavaScript, Python)."
+    },
+    {
+      "title": "Taskwarrior-web Authentication",
+      "url": "https://example.com/taskwarrior-web/auth.html",
+      "snippet": "Explanation of user authentication mechanisms within Taskwarrior-web, including methods for user registration, login, and session management.  Code snippets illustrating authentication workflows would be found here."
+    },
+    {
+      "title": "Simple Todo App - Getting Started",
+      "url": "https://example.com/simple-todo-app/getting-started.md",
+      "snippet": "A tutorial introducing the Simple Todo App, covering basic usage and features.  This might include screenshots and basic code samples."
+    },
+    {
+      "title": "Simple Todo App - Local Storage Management",
+      "url": "https://example.com/simple-todo-app/local-storage.md",
+      "snippet": "A detailed explanation of how the app uses local storage for data persistence.  This would include code illustrating how data is saved, loaded, and updated using local storage."
+    },
+    {
+      "title": "Another Simple Todo - Authentication Flow",
+      "url": "https://example.com/another-simple-todo/auth-flow.md",
+      "snippet": "Documentation explaining the application's authentication mechanism and how to manage user accounts. It would showcase code implementing login and registration processes."
+    },
+    {
+      "title": "[Insert Project Name Here] - User Guide",
+      "url": "[Insert Valid URL Here]",
+      "snippet": "[Insert Snippet Describing Project Features and Usage]"
+    }
+  ]
+}

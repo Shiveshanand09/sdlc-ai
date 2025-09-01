@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+sdlc_ai_project/crew.py
+sdlc_ai_project/main.py
+sdlc_ai_project/tools.py
+sdlc_ai_project.egg-info/PKG-INFO
+sdlc_ai_project.egg-info/SOURCES.txt
+sdlc_ai_project.egg-info/dependency_links.txt
+sdlc_ai_project.egg-info/requires.txt
+sdlc_ai_project.egg-info/top_level.txt

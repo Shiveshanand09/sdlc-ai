@@ -1,0 +1,160 @@
+{
+  "tasks": [
+    {
+      "task_id": 1,
+      "description": "Design the database schema for users, projects, and tasks.",
+      "priority": "high",
+      "automation_potential": "low",
+      "ai_agent_type": null,
+      "dependencies": []
+    },
+    {
+      "task_id": 2,
+      "description": "Develop user authentication module (signup, login, password reset).",
+      "priority": "high",
+      "automation_potential": "low",
+      "ai_agent_type": null,
+      "dependencies": []
+    },
+    {
+      "task_id": 3,
+      "description": "Develop the user interface for task creation, editing, and deletion.",
+      "priority": "high",
+      "automation_potential": "medium",
+      "ai_agent_type": "UI agent",
+      "dependencies": [
+        1,
+        2
+      ]
+    },
+    {
+      "task_id": 4,
+      "description": "Develop the backend API for task management (CRUD operations).",
+      "priority": "high",
+      "automation_potential": "medium",
+      "ai_agent_type": "API agent",
+      "dependencies": [
+        1,
+        2
+      ]
+    },
+    {
+      "task_id": 5,
+      "description": "Implement project creation and management functionalities.",
+      "priority": "high",
+      "automation_potential": "low",
+      "ai_agent_type": null,
+      "dependencies": [
+        1,
+        2
+      ]
+    },
+    {
+      "task_id": 6,
+      "description": "Integrate user authentication with task management API.",
+      "priority": "high",
+      "automation_potential": "low",
+      "ai_agent_type": null,
+      "dependencies": [
+        2,
+        4
+      ]
+    },
+    {
+      "task_id": 7,
+      "description": "Implement task prioritization and due date functionalities.",
+      "priority": "medium",
+      "automation_potential": "low",
+      "ai_agent_type": null,
+      "dependencies": [
+        3,
+        4
+      ]
+    },
+    {
+      "task_id": 8,
+      "description": "Develop a search functionality for tasks.",
+      "priority": "medium",
+      "automation_potential": "high",
+      "ai_agent_type": "NLP agent",
+      "dependencies": [
+        3,
+        4
+      ]
+    },
+    {
+      "task_id": 9,
+      "description": "Implement task status tracking (e.g., to-do, in progress, completed).",
+      "priority": "medium",
+      "automation_potential": "low",
+      "ai_agent_type": null,
+      "dependencies": [
+        3,
+        4
+      ]
+    },
+    {
+      "task_id": 10,
+      "description": "Implement automated reminders for upcoming tasks (email/in-app notifications).",
+      "priority": "medium",
+      "automation_potential": "high",
+      "ai_agent_type": "Scheduling agent",
+      "dependencies": [
+        4,
+        7
+      ]
+    },
+    {
+      "task_id": 11,
+      "description": "Develop a system for assigning tasks to users within a project.",
+      "priority": "medium",
+      "automation_potential": "low",
+      "ai_agent_type": null,
+      "dependencies": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "task_id": 12,
+      "description": "Implement data backup and restore functionality.",
+      "priority": "low",
+      "automation_potential": "high",
+      "ai_agent_type": "System agent",
+      "dependencies": [
+        1
+      ]
+    },
+    {
+      "task_id": 13,
+      "description": "Develop unit and integration tests for all modules.",
+      "priority": "high",
+      "automation_potential": "medium",
+      "ai_agent_type": "Testing agent",
+      "dependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "task_id": 14,
+      "description": "Deploy the application to a local server.",
+      "priority": "high",
+      "automation_potential": "high",
+      "ai_agent_type": "Deployment agent",
+      "dependencies": [
+        13
+      ]
+    }
+  ]
+}

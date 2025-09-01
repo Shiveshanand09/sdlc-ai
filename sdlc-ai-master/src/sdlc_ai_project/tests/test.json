@@ -1,0 +1,53 @@
+{
+  "searchParameters": {
+    "q": "Similar projects for A simple web application for task management",
+    "type": "search",
+    "num": 2,
+    "engine": "google"
+  },
+  "organic": [
+    {
+      "title": "Top 8 Open-Source Projects (Rated) to Build Your Own Task ...",
+      "link": "https://medium.com/@nocobase/top-8-open-source-projects-rated-to-build-your-own-task-management-system-3742ce665cdb",
+      "snippet": "Kanboard is a lightweight, open-source Kanban tool focused on simple task management with a straightforward drag-and-drop interface. Highlights.",
+      "position": 1,
+      "sitelinks": [
+        {
+          "title": "Openproject",
+          "link": "https://medium.com/@nocobase/top-8-open-source-projects-rated-to-build-your-own-task-management-system-3742ce665cdb#:~:text=OpenProject,-Project%20URL%3A%20https%3A%2F%2Fgithub.com%2Fopf%2Fopenproject"
+        },
+        {
+          "title": "Kanboard",
+          "link": "https://medium.com/@nocobase/top-8-open-source-projects-rated-to-build-your-own-task-management-system-3742ce665cdb#:~:text=Kanboard,-Project%20URL%3A%20https%3A%2F%2Fgithub.com%2Fkanboard%2Fkanboard"
+        },
+        {
+          "title": "Taskcafe",
+          "link": "https://medium.com/@nocobase/top-8-open-source-projects-rated-to-build-your-own-task-management-system-3742ce665cdb#:~:text=Taskcafe,-Project%20URL%3A%20https%3A%2F%2Fgithub.com%2FJordanKnott%2Ftaskcafe"
+        }
+      ]
+    },
+    {
+      "title": "HELP! I need a simple team/task management tool for a small, fast ...",
+      "link": "https://www.reddit.com/r/projectmanagement/comments/1cmu2vr/help_i_need_a_simple_teamtask_management_tool_for/",
+      "snippet": "IMO, Clickup, Monday.com or Basecamp are the most seamless and versatile PM software for fractional/small projects. Upvote",
+      "position": 2,
+      "sitelinks": [
+        {
+          "title": "Looking for a Task Management App Similar to Monday.com - Reddit",
+          "link": "https://www.reddit.com/r/ProductivityApps/comments/1e7cqs9/looking_for_a_task_management_app_similar_to/"
+        },
+        {
+          "title": "Looking for the ultimate to-do list, project manager, AI scheduler app ...",
+          "link": "https://www.reddit.com/r/ProductivityApps/comments/1cs7dhp/looking_for_the_ultimate_todo_list_project/"
+        }
+      ]
+    }
+  ],
+  "relatedSearches": [
+    { "query": "Google Tasks" },
+    {
+      "query": "Similar projects for a simple web application for task management github"
+    }
+  ],
+  "credits": 1
+}

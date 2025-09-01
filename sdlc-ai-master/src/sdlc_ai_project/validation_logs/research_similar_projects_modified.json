@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "name": "Taskwarrior-web",
+      "repo_url": "https://github.com/GothenburgBitFactory/taskwarrior-web",
+      "summary": "A simple and elegant web interface for Taskwarrior, a command-line task manager.  Offers user authentication and local storage (requires Taskwarrior backend)."
+    },
+    {
+      "name": "Simple-Todo-App",
+      "repo_url": "https://github.com/search?q=simple+todo+app+local+storage+authentication",
+      "summary": "This is a placeholder.  A comprehensive search on GitHub for 'simple todo app local storage authentication' is recommended to find many potential small projects that may not be as well-documented or established as larger ones."
+    },
+    {
+      "name": "Another-Simple-Todo",
+      "repo_url": "https://github.com/search?q=todo+app+javascript+localstorage+authentication",
+      "summary": "This is a placeholder.  This searches GitHub for projects built in Javascript using local storage for data persistence and basic authentication mechanisms. Many small or experimental projects may be found using this approach."
+    },
+    {
+      "name": "[Insert Project Name Here]",
+      "repo_url": "[Insert Valid GitHub URL Here]",
+      "summary": "[Insert Concise Project Summary Here]"
+    }
+  ]
+}

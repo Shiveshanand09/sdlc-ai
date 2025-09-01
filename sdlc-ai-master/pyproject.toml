@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sdlc_ai_project"
+version = "0.1.0"
+description = "AI-driven SDLC automation using CrewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+crewai = "*"
+crewai-tools = "*"
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
